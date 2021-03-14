@@ -1,0 +1,26 @@
+input:not([type = "checkbox"]) {
+    width: calc(100% - 10px);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    font: icon;
+}
+
+li:hover {
+    background: whitesmoke;
+}
+
+input[type = "checkbox"] {
+    margin: 1ex;
+}
+
+button {
+    margin-left: auto;
+}
